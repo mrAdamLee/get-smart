@@ -35,6 +35,8 @@ gem "font-awesome-sass", "~> 6.2.1"
 gem "haml-rails", "~> 2.0"
 gem 'html2haml'
 gem 'simple_form'
+gem 'faker'
+gem 'devise' 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
