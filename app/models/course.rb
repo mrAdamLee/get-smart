@@ -4,7 +4,7 @@ class Course < ApplicationRecord
   
   validate :check_description_length_and_presence
 
-  
+   belongs_to :user
 
   private 
 
