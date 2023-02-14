@@ -37,6 +37,7 @@ gem 'html2haml'
 gem 'simple_form'
 gem 'faker'
 gem 'devise' 
+gem 'pry', '~> 0.13.1'
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 

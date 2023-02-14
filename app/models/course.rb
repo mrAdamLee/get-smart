@@ -6,6 +6,10 @@ class Course < ApplicationRecord
 
    belongs_to :user
 
+
+  def user_name 
+    user.try(:full_name)
+  end
   private 
 
   def check_description_length_and_presence
